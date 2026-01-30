@@ -1,0 +1,12 @@
+[
+  {
+    "email": "isuru@gmail.com",
+    "passwordHash": "$2a$10$8pYe10N8JryK1WtY0MURKebV7Ip3XjzXPCEt1MObV981PLzlz/o/G",
+    "role": "admin",
+    "walletAddress": "0x6031b6eed1c97e853c6e0f03ad3ce3529351f96d",
+    "lastLoginAt": "2026-01-30T02:55:12.872Z",
+    "_id": "b79cc089c140715e5673b045",
+    "createdAt": "2026-01-23T04:11:10.302Z",
+    "updatedAt": "2026-01-30T02:55:12.873Z"
+  }
+]
