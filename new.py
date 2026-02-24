@@ -125,10 +125,10 @@ logger = logging.getLogger(__name__)
 
 def _ed25519_headers(path: str = "/v1/ws/markets") -> dict[str, str]:
     key_id = os.getenv("POLYMARKET_ACCESS_KEY", "").strip()
-    secret = os.getenv("POLYMARKET_PRIVATE_KEY", "").strip()
+    secret = os.getenv("POLYMARKET_SECRET_KEY", "").strip()
 
     if not key_id or not secret:
-        raise RuntimeError("Missing POLYMARKET_ACCESS_KEY or POLYMARKET_PRIVATE_KEY")
+        raise RuntimeError("Missing POLYMARKET_ACCESS_KEY or POLYMARKET_SECRET_KEY")
 
     # Check system time vs real world time from Polymarket API
     try:
